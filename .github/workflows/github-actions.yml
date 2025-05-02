@@ -33,7 +33,7 @@ jobs:
       - name: Terraform Deploy
         id: init
         run: |
-          export KOYEB_TOKEN=${{secrets.KOYEB_API_TOKEN}}
+          export KOYEB_TOKEN=${{secrets.KOYEB_TOKEN}}
           terraform init -backend=false
           terraform fmt -check
           terraform validate -no-color || true 
