@@ -60,6 +60,6 @@ resource "koyeb_service" "glowberry-application-service" {
   }
 
   depends_on = [
-    koyeb_app.deployment-application
+    koyeb_app.glowberry-application
   ]
 }
