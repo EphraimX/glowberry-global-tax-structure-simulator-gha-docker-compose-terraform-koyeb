@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     koyeb = {
-      source = "koyeb/koyeb"
+      source  = "koyeb/koyeb"
       version = "0.1.11"
     }
   }
@@ -49,7 +49,7 @@ resource "koyeb_service" "glowberry-application-service" {
     regions = ["fra"]
 
     git {
-      branch = "main"
+      branch     = "main"
       repository = "github.com/EphraimX/glowberry-global-tax-structure-simulator-gha-docker-compose-terraform-koyeb"
       dockerfile {
         dockerfile = "Dockerfile.koyeb"
