@@ -1,11 +1,11 @@
 variable "app_name" {
   description = "Koyeb App Name"
-  default     = "glowberry-global-tax-structure-simulator-gha-docker-compose-tf-koyeb"
+  default     = "gtaxsim-gha-dkr-tfkb"
 }
 
 variable "service_name" {
   description = "Koyeb Service Name"
-  default     = "glowberry-global-tax-structure-simulator-gha-docker-compose-tf-koyeb"
+  default     = "gtaxsim-gha-dkr-tfkb"
 }
 
 variable "instance_type" {
