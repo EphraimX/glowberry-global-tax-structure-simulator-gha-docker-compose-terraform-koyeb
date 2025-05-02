@@ -10,7 +10,7 @@ variable "service_name" {
 
 variable "instance_type" {
   description = "Koyeb Instance Type"
-  default     = "free"
+  default     = "nano"
 }
 
 variable "port" {
